@@ -1,0 +1,11 @@
+﻿Console.Write("Ile masz złotych monet?");
+string Gold = Console.ReadLine();
+int gold = int.Parse(Gold);
+Console.Write("Ile masz srebrnych monet?");
+string Silver = Console.ReadLine();
+int silver = int.Parse(Silver);
+Console.Write("Ile masz miedzianych monet?");
+string Copper = Console.ReadLine();
+int copper = int.Parse(Copper);
+int totalCopper = gold * 100 + silver * 10 + copper;
+Console.WriteLine($"Masz {totalCopper} miedzianych monet.");
